@@ -40,7 +40,7 @@ export default function App() {
     console.log("Arrival time:", arrivalTime);
     console.log("Unix time:", unixTime);
   
-    const url = "http://34.143.146.60:5000/api/seant/test?unix_time=" + unixTime;
+    const url = "https://iolani-traffic-predictor-669394454391.europe-west1.run.app/api/seant/test?unix_time=" + unixTime;
   
     fetch(url)
       .then((response) => response.json())
