@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir flask flask-cors numpy tensorflow keras gunicorn joblib pandas
+RUN pip install --no-cache-dir flask flask-cors numpy tensorflow keras gunicorn joblib pandas scikit-learn
 
 COPY . .
 
